@@ -1,0 +1,29 @@
+#container {
+  width: 50%;
+  margin: auto;
+  border: 1px solid #eee;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.45);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.45);
+}
+
+@media screen and (max-width: 1200px) {
+  #container {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.45);
+  }
+}
+
+#name {
+  margin: 20px 20px 20px 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+#desc {
+  margin: 20px 20px 20px 20px;
+}
