@@ -2,8 +2,8 @@ var ubitusGamesContentUrl = "https://tw.ugamenow.com/gamecontent/games";
 httpGet(ubitusGamesContentUrl, gamesContentHandler);
 
 function httpGet(url, gamesContentHandler) {
-    var xmlHttp = new XMLHttpRequest()
-    xmlHttp.open("GET", url, true)
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", url, true);
     xmlHttp.onreadystatechange = function() {
         // Request done
         if (xmlHttp.readyState == 4) {
